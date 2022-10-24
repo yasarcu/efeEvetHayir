@@ -13,10 +13,10 @@ function play(deger, _deger) {
     if (isim == "Mete") {
         deger = deger + "Mete";
     }
-    // if (audio != undefined) {
-    // audio.pause();
-    // audio.currentTime = 0;
-    // }
+    if (audio != undefined) {
+    audio.pause();
+    audio.currentTime = 0;
+    }
     var audio = document.getElementById(deger);
     // ikinci defer buttona tiklaninca tekrar eski rengine donsun hatasina bak
     var sayiBack = _deger.style.backgroundColor;
