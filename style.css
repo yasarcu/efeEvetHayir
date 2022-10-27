@@ -9,6 +9,19 @@ button, #on {
     /* border-radius: 15px; */
     margin: 0;
 }
+
+p {
+    width: 28%;
+    font-size: 4em;
+    /* font-style: italic; */
+    float: left;
+    margin: 7px;
+    /* background-color: #000; */
+    color: #ffe400;
+    /* border-radius: 15px; */
+    margin: 0;
+}
+
 .tek {
 color: blue;
 }

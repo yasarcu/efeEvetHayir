@@ -10,9 +10,9 @@
 </head>
 <body>
     <!--onclick="play(this.value, this) sadece this buttonun arka planinin rengini degistirmek icin kullanilir -->
-    <button id = "El" value="sesEl" class = "tek" onclick="play(this.value, this)" onmouseover="fareUzerinde(this.value, this)">El</button>
+    <button id = "El" value="sesEl" class = "tek" onclick="play(this.value, this)" ontouchstart = "play(this.value, this)" onmouseover="fareUzerinde(this.value, this)">El</button>
     <button id = "le" value="sesLe" class="cift" onclick="play(this.value, this)" onmouseover="fareUzerinde(this.value, this)">le</button>
-
+    <p value="sesE" onclick="play(this.value, this)" class="tek" onmouseover="fareUzerinde(this.value, this)" ontouchstart = "play(this.value, this)" >El</p>
     <!-- <button value="on" id="omnom" onclick="play(this.value, this)" onmouseover="fareUzerinde(this.value, this)">10</button> -->
     <!-- <button id="metefe" value="kosoferta" onclick="isimler()">Efe</button> -->
 
@@ -23,6 +23,7 @@
     
     <audio id="sesEl" src="sesler/efeEl.mp3"></audio>
     <audio id="sesLe" src="sesler/efeLe.mp3"></audio>
+    <audio id="sesE" src="sesler/BirEfe.mp3"></audio>
 
 </body>
 </html>
