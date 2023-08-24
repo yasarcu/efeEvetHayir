@@ -8,6 +8,7 @@ button, #on {
     color: #ffe400;
     /* border-radius: 15px; */
     margin: 0;
+    border-radius: 50%;
 }
 
 p {
@@ -23,9 +24,11 @@ p {
 }
 
 .tek {
-color: blue;
+background-color: green;
+color: green;
 }
 .cift {
+background-color: red;
 color: red;
 }
 
