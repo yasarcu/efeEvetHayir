@@ -8,10 +8,16 @@
     <script src="mete.js"></script>
     <title>Metenin sayilari</title>
 </head>
-<body>
+<body >
     <!--onclick="play(this.value, this) sadece this buttonun arka planinin rengini degistirmek icin kullanilir -->
     <button id = "El" value="sesEl" class = "tek" onclick="play(this.value, this)">E</button>
     <button id = "le" value="sesLe" class="cift" onclick="play(this.value, this)" >H</button>
+    
+    <div class="semafor">
+    <button id = "dur" value="du" class="classK" onclick="play(this.value, this)" >H</button>
+    <button id = "hazir" value="ha" class="classS" onclick="play(this.value, this)" >H</button>
+    <button id = "basla" value="ba" class="classY" onclick="play(this.value, this)" >H</button>
+    </div>
     <!-- <p value="sesE" onclick="play(this.value, this)" class="tek" onmouseover="fareUzerinde(this.value, this)" ontouchstart = "play(this.value, this)" >El</p> -->
     <!-- <button value="on" id="omnom" onclick="play(this.value, this)" onmouseover="fareUzerinde(this.value, this)">10</button> -->
     <!-- <button id="metefe" value="kosoferta" onclick="isimler()">Efe</button> -->
@@ -24,6 +30,10 @@
     <audio id="sesEl" src="sesler/evet.mp3"></audio>
     <audio id="sesLe" src="sesler/hayir.mp3"></audio>
     <audio id="sesE" src="sesler/BirEfe.mp3"></audio>
+
+    <audio id="du" src="sesler/dur.mp3"></audio>
+    <audio id="ha" src="sesler/hazir.mp3"></audio>
+    <audio id="ba" src="sesler/basla.mp3"></audio>
 
 </body>
 </html>
